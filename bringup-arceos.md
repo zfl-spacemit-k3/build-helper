@@ -243,7 +243,7 @@ SRC_URI = "git://github.com/spacemit-com/uboot-2022.10.git;protocol=https;tag=k3
 2. 修改最终编译产物的 bb 文件，具体修改如下图所示；
 3. 使用 `BB_NO_NETWORK=0 MACHINE=k3 bitbake core-image-weston -c clean && BB_NO_NETWORK=0 MACHINE=k3 bitbake core-image-weston` 重新生成最终编译产物，最终编译产物的目录下可以看到 `bootfs` 目录下已经有了 arceos helloworld 镜像，并且 a 打包到 bootfs.ext 中；
 
-！[alt text](。/assets/image-k3-diff.png)
+![alt text](./assets/image-k3-diff.png)
 
 ## 注意
 
