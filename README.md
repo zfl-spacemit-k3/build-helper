@@ -4,3 +4,4 @@
 
 1. 通过 yocto 编译系统编译刷机镜像的文件：[yocto-build.md](./yocto-build.md)
 2. 软件刷机步骤：[fastboot.md](./fastboot.md)
+3. 启动 [arceos helloworld 指南](./bringup-arceos.md)
